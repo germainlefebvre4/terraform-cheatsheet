@@ -4,11 +4,14 @@ Written by Germain LEFEBVRE by August 2018 from Terraform v0.11.7.
 
 **Table of Contents**
 1. [Context](#context)
-2. [Ansible Definitions](#ansible-definitions)
-3. [Ansible Commands](#ansible-adhoc-commands)
-   1. [AdHoc Commands](#ansible-adhoc-commands)
+1. [Terraform Commands](#terraform-commands)
+1. [Terraform configuration management](#terraform-configuration-management)
+   1. [Global variables](#global-variables)
+   1. [Environment management](#environment-management)
+   1. [Requiring variables](#requiring-variables)
+   1. [Environments variables](#eenvironments-variables)
 
-### Context
+## Context
 
 See version of Terraform with `terraform --version` :
 ```
